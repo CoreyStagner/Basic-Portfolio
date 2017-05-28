@@ -6,6 +6,7 @@ body{
 	background-image: url(../images/background.png);
 	display: inline;
 	align-content: center;
+	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
 }
 
 h1 h2 h3 h4 h5 h6{
@@ -16,9 +17,9 @@ h4{
 	color: #777777;
 }
 
-p{
+/*p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+}*/
 
 .wrapper{
 	width:960px;
@@ -61,7 +62,7 @@ a{
 	width: 100%;
 	height: 10%;
 	background-color: #ffffff;
-	border-bottom: 1px #cccccc solid;
+	border-bottom: 2px #cccccc solid;
 }
 
 .nameBkgd{
@@ -77,8 +78,8 @@ a{
 
 .nameBkgd:hover{
 	background: rgba(0,0,0,0);
-	color: #3a7999;
-	box-shadow: inset 0 0 0 3px #3a7999;
+	color: #4aaaa5;
+	box-shadow: inset 0 0 0 3px #4aaaa5;
 }
 
 .nameText{
@@ -109,7 +110,7 @@ img{
 	font-size: 36px;
 	font-weight: bold;
 	color: #4aaaac;
-	border-bottom: 2px lightgrey solid;
+	border-bottom: 2px #cccccc solid;
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 20px;
@@ -123,6 +124,7 @@ img{
     margin-top: 20px;
     margin-right: 0px;
     background-color: #ffffff ;
+    border: 1px #dddddd solid;
     height: 70%;
     margin-right: 0px;
     padding-left: 6px;
@@ -178,6 +180,7 @@ img{
 	width: 270px;
 	background-color: #ffffff;
 	margin-top: 20px;
+	border: 1px #dddddd solid;
 }
 
 .connectHeader{
@@ -191,7 +194,7 @@ img{
 	padding-bottom: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
-	border-bottom: 1px grey solid;
+	border-bottom: 1px #dddddd solid;
 }
 
 .connectIcons{
